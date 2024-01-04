@@ -3,7 +3,7 @@ function makeFriendsList(friends) {
   friends.forEach(item => {
       let friend = document.createElement("li");
       friend.textContent = `${item.firstName} ${item.lastName}`;
-      friendList.append(li);
+      friendList.append(friend);
   });
   return friendList;
 }
